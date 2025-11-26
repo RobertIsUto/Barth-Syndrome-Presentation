@@ -1,4 +1,8 @@
-
+/* =========================================
+   BARTH SYNDROME - ACADEMIC PRESENTATION
+   Professional Black & White Design
+   Full-Color Scientific Figures
+   ========================================= */
 
 /* CSS Custom Properties */
 :root {
@@ -552,7 +556,7 @@ figure img {
 }
 
 .image-grid-3 figure img {
-    max-height: 350px;
+    max-height: 220px;
 }
 
 figcaption {
