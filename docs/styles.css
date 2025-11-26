@@ -1,3 +1,4 @@
+
 /* CSS Custom Properties */
 :root {
     --black: #000000;
@@ -552,8 +553,10 @@ figure img {
 
 .image-grid-3 figure img {
     max-height: 280px;
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
 }
 
 figcaption {
