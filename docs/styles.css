@@ -545,7 +545,14 @@ figure img {
     width: 100%;
     height: auto;
     display: block;
+    max-height: 450px;
+    object-fit: contain;
+    background: var(--pure-white);
     /* No grayscale filter - scientific figures need color */
+}
+
+.image-grid-3 figure img {
+    max-height: 350px;
 }
 
 figcaption {
