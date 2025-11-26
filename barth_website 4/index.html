@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barth Syndrome - Robert Nguyen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader-wrapper" id="loader">
+        <div class="loader-content">
+            <div class="dna-helix">
+                <div class="strand strand-1"></div>
+                <div class="strand strand-2"></div>
+                <div class="strand strand-3"></div>
+                <div class="strand strand-4"></div>
+                <div class="strand strand-5"></div>
+                <div class="strand strand-6"></div>
+                <div class="strand strand-7"></div>
+                <div class="strand strand-8"></div>
+            </div>
+            <h2 class="loader-title">Barth Syndrome</h2>
+            <p class="loader-subtitle">Loading presentation...</p>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="page-content" id="page-content">
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Barth Syndrome</a>
+            <ul class="nav-menu">
+                <li><a href="#background">Background</a></li>
+                <li><a href="#cells">Cells</a></li>
+                <li><a href="#genes">Genes</a></li>
+                <li><a href="#pathways">Pathways</a></li>
+                <li><a href="#cure">Cure</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Barth Syndrome Background</h1>
+            <p class="subtitle">BTHS– X-linked Mitochondrial Disorder</p>
+        </div>
+    </header>
+
+    <!-- Section 1: Background -->
+    <section id="background" class="section">
+        <div class="container">
+            <h2>Barth Syndrome Background</h2>
+            <p class="section-subtitle">BTHS– X-linked Mitochondrial Disorder</p>
+            
+            <div class="content-grid">
+                <div class="text-content">
+                    <div class="subsection">
+                        <h3>A. Disease physiological effects description and symptoms</h3>
+                        <ul>
+                            <li><strong>Cardiomyopathy</strong> – dilated or hypertrophic heart</li>
+                            <li><strong>Skeletal myopathy</strong> – muscle weakness, fatigue</li>
+                            <li><strong>Neutropenia</strong> – low white blood cells, infections</li>
+                            <li><strong>Growth delay</strong> – short stature, delayed puberty</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="subsection">
+                        <h3>B. Disease prevalence</h3>
+                        <ul>
+                            <li>1 in 300,000–400,000 live births.</li>
+                            <li>~230–250 males identified globally. Primarily affects males.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="subsection">
+                        <h3>C. Diagnostic Techniques</h3>
+                        <ul>
+                            <li><strong>Urinalysis</strong> — 3-methylglutaconic acid levels</li>
+                            <li><strong>Echocardiography</strong> — heart function</li>
+                            <li><strong>Genetic testing</strong> — TAFAZZIN mutations</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="image-content">
+                    <div class="image-grid-2">
+                        <figure class="hotspot-container">
+                            <img src="images/image1.png" alt="X-ray showing bone age delay">
+                            <div class="hotspot" style="top: 20%; left: 50%;" data-label="Delayed Bone Development">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Delayed Bone Development</h5>
+                                    <p>The carpal bones (wrist) show delayed ossification. Bone age is 8.3 years while chronological age is 13.2 years - a 5-year delay typical of BTHS growth retardation.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 75%; left: 30%;" data-label="Growth Plates">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Open Growth Plates</h5>
+                                    <p>The epiphyseal plates remain open longer than expected, indicating delayed skeletal maturation due to metabolic dysfunction.</p>
+                                </div>
+                            </div>
+                            <figcaption>Bone age: 8.3 yrs vs Chronological age: 13.2 yrs</figcaption>
+                        </figure>
+                        <figure class="hotspot-container">
+                            <img src="images/image14.png" alt="Echocardiography showing dilated cardiomyopathy">
+                            <div class="hotspot" style="top: 18%; left: 25%;" data-label="Dilated Left Ventricle">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Dilated Cardiomyopathy</h5>
+                                    <p>The left ventricle is abnormally enlarged and weakened, unable to pump blood efficiently. This is the most common cardiac manifestation in BTHS.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 35%; left: 55%;" data-label="Trabeculations">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Left Ventricular Non-Compaction (LVNC)</h5>
+                                    <p>Prominent trabeculations (finger-like projections) in the left ventricle indicate LVNC, a common finding in Barth syndrome where the heart muscle fails to compact properly during development.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 70%; left: 40%;" data-label="Echocardiogram">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>3D Echocardiography</h5>
+                                    <p>This ultrasound imaging technique allows visualization of heart structure and function, essential for diagnosing and monitoring cardiomyopathy in BTHS patients.</p>
+                                </div>
+                            </div>
+                            <figcaption>Dilated cardiomyopathy with trabeculations</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sources">
+                <h4>Sources:</h4>
+                <div class="source-cards">
+                    <div class="source-card">
+                        <img src="images/image7.png" alt="Clarke et al. 2013">
+                        <p>Clarke et al. Orphanet J Rare Dis. 2013</p>
+                    </div>
+                    <div class="source-card">
+                        <img src="images/image6.png" alt="Saric et al. 2016">
+                        <p>Saric et al. Front Genet. 2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Cells -->
+    <section id="cells" class="section section-alt">
+        <div class="container">
+            <h2>Barth Syndrome Cells</h2>
+            
+            <div class="content-grid">
+                <div class="text-content">
+                    <div class="subsection">
+                        <h3>A. What tissues are involved in the disease?</h3>
+                        <ul>
+                            <li>Cardiac muscle (myocardium)</li>
+                            <li>Skeletal muscle</li>
+                            <li>Bone marrow, Immune system</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="subsection">
+                        <h3>B. What cell types are involved in the disease?</h3>
+                        <ul>
+                            <li>Cardiomyocytes, Myocytes</li>
+                            <li>Neutrophils, Myeloid progenitors</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="subsection">
+                        <h3>C. What happens to cells (pathological changes)?</h3>
+                        <ul>
+                            <li>Abnormal mitochondrial structure</li>
+                            <li>Impaired oxidative phosphorylation</li>
+                            <li>Cristae disorganization</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="image-content">
+                    <div class="image-grid-3">
+                        <figure class="hotspot-container">
+                            <img src="images/image10.png" alt="Electron microscopy of mitochondria">
+                            <div class="hotspot" style="top: 12%; left: 70%;" data-label="Mitochondria">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Abnormal Mitochondria (M)</h5>
+                                    <p>Mitochondria appear swollen with disorganized cristae. In healthy cells, cristae are tightly packed; in BTHS, they are sparse and irregular due to cardiolipin deficiency.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 25%; left: 40%;" data-label="Nucleus">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Cell Nucleus (N)</h5>
+                                    <p>The nucleus contains the genetic material. The TAFAZZIN gene mutation originates here but affects mitochondrial function throughout the cell.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 55%; left: 25%;" data-label="Cristae">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Cristae Structure</h5>
+                                    <p>Higher magnification shows cristae (inner membrane folds). Normal cristae (C,D) are densely packed; BTHS cristae (F,G) are disorganized and sparse, reducing ATP production capacity.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 20%; left: 85%;" data-label="Autophagosome">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Autophagosome</h5>
+                                    <p>Cellular recycling structures that engulf damaged organelles. Increased autophagy in BTHS reflects the cell's attempt to remove dysfunctional mitochondria.</p>
+                                </div>
+                            </div>
+                            <figcaption>Electron microscopy showing abnormal mitochondria</figcaption>
+                        </figure>
+                        <figure class="hotspot-container">
+                            <img src="images/image5.png" alt="Cardiac tissue histology">
+                            <div class="hotspot" style="top: 40%; left: 25%;" data-label="Fibrosis">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Endocardial Fibroelastosis</h5>
+                                    <p>The star (★) marks thickened endocardium with excessive fibrous tissue. This stiffens the heart wall and impairs cardiac function.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 50%; left: 75%;" data-label="Collagen">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Collagen Deposition</h5>
+                                    <p>The arrow points to blue-stained collagen fibers (Masson's trichrome stain), indicating fibrotic tissue replacing healthy myocardium.</p>
+                                </div>
+                            </div>
+                            <figcaption>Cardiac tissue histology</figcaption>
+                        </figure>
+                        <figure class="hotspot-container">
+                            <img src="images/image3.png" alt="Blood smear showing neutropenia">
+                            <div class="hotspot" style="top: 30%; left: 50%;" data-label="Neutrophils">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Neutrophils</h5>
+                                    <p>The larger purple cells with segmented nuclei are neutrophils. In BTHS, neutrophil counts are often low (neutropenia), increasing infection risk.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 60%; left: 70%;" data-label="Red Blood Cells">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Red Blood Cells</h5>
+                                    <p>The smaller pink cells are erythrocytes. Their appearance is generally normal in BTHS; the primary hematological issue is neutropenia.</p>
+                                </div>
+                            </div>
+                            <figcaption>Blood smear</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sources">
+                <h4>Sources:</h4>
+                <div class="source-cards">
+                    <div class="source-card">
+                        <img src="images/image7.png" alt="Clarke et al. 2013">
+                        <p>Clarke et al. Orphanet J Rare Dis. 2013</p>
+                    </div>
+                    <div class="source-card">
+                        <img src="images/image6.png" alt="Saric et al. 2016">
+                        <p>Saric et al. Front Genet. 2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Genes -->
+    <section id="genes" class="section">
+        <div class="container">
+            <h2>What Genes Are Mutated in Barth Syndrome?</h2>
+            
+            <div class="content-grid">
+                <div class="text-content">
+                    <div class="subsection">
+                        <h3>A. What genes and mutations cause the disease?</h3>
+                        <ul>
+                            <li><strong class="highlight">TAFAZZIN (TAZ):</strong> Phospholipid-lysophospholipid transacylase that remodels cardiolipin in the mitochondrial inner membrane, enhancing mitochondrial function and influencing the respiratory chain; located on Xq28.</li>
+                        </ul>
+                        <div class="sub-list">
+                            <ul>
+                                <li>Gene: ~10,000 base pairs, 11 exons</li>
+                                <li>>160 mutations identified</li>
+                                <li>Types: missense, nonsense, deletions</li>
+                                <li>Example Mutations:
+                                    <ul>
+                                        <li>c.280C>T (p.Arg94Cys)</li>
+                                        <li>Exon deletions, Splice variants</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="image-content">
+                    <div class="image-stack">
+                        <figure class="hotspot-container">
+                            <img src="images/image4.png" alt="Tafazzin mutation pathway">
+                            <div class="hotspot" style="top: 25%; left: 12%;" data-label="TAZ Mutation">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Tafazzin Mutation</h5>
+                                    <p>Mutations in the TAZ gene lead to decreased tafazzin enzyme activity, preventing proper cardiolipin maturation (CL non-maturation).</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 18%; left: 52%;" data-label="ROS">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Reactive Oxygen Species (ROS)</h5>
+                                    <p>Dysfunctional mitochondria produce excess hydrogen peroxide (H₂O₂) and superoxide (O₂⁻), causing oxidative stress and cellular damage.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 35%; left: 70%;" data-label="ATP Decrease">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Decreased ATP Production</h5>
+                                    <p>Mitochondrial dysfunction leads to reduced ATP synthesis, depriving energy-demanding tissues like heart and muscle of necessary fuel.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 70%; left: 25%;" data-label="Apoptosis">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Mitochondrial Apoptosis</h5>
+                                    <p>The CL/Caspase-8/Bid-FL platform normally regulates cell death. Its disruption in BTHS affects apoptosis signaling.</p>
+                                </div>
+                            </div>
+                            <figcaption>Effects of Tafazzin mutation on cellular pathways</figcaption>
+                        </figure>
+                        <figure class="hotspot-container">
+                            <img src="images/image12.png" alt="Respiratory chain complexes">
+                            <div class="hotspot" style="top: 40%; left: 12%;" data-label="Complex I">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Complex I (NADH Dehydrogenase)</h5>
+                                    <p>The first enzyme of the electron transport chain. It oxidizes NADH and transfers electrons to ubiquinone (Q). Cardiolipin is essential for its stability.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 35%; left: 38%;" data-label="Complex III">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Complex III (Cytochrome bc₁)</h5>
+                                    <p>Transfers electrons from ubiquinol to cytochrome c. Cardiolipin molecules (green) surround and stabilize this complex.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 45%; left: 58%;" data-label="Complex IV">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Complex IV (Cytochrome c Oxidase)</h5>
+                                    <p>The final electron acceptor, reducing O₂ to H₂O. Requires cardiolipin for proper assembly and function.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 30%; left: 82%;" data-label="ATP Synthase">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Complex V (ATP Synthase)</h5>
+                                    <p>Uses the proton gradient (H⁺) to synthesize ATP from ADP. Cardiolipin is required for proper assembly of ATP synthase dimers.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 75%; left: 75%;" data-label="Cardiolipin">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Cardiolipin (CL)</h5>
+                                    <p>The green molecules represent cardiolipin in the inner mitochondrial membrane. CL has a unique cone shape that helps create membrane curvature at cristae.</p>
+                                </div>
+                            </div>
+                            <figcaption>Respiratory chain supercomplexes with cardiolipin</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sources">
+                <h4>Sources:</h4>
+                <div class="source-cards">
+                    <div class="source-card">
+                        <img src="images/image6.png" alt="Saric et al. 2016">
+                        <p>Saric et al. Front Genet. 2016</p>
+                    </div>
+                    <div class="source-card wide">
+                        <img src="images/image8.png" alt="NCBI Gene Summary">
+                        <p>NCBI Gene Summary & GeneCards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Pathways -->
+    <section id="pathways" class="section section-alt">
+        <div class="container">
+            <h2>Barth Syndrome Pathways</h2>
+            
+            <div class="content-grid reverse">
+                <div class="text-content">
+                    <ul class="pathway-list">
+                        <li><strong>CLS1</strong> synthesizes immature cardiolipin (CL) in the inner mitochondrial membrane.</li>
+                        <li><strong>iPLA2γ</strong> removes acyl chains from immature CL to form monolysocardiolipin (MLCL).</li>
+                        <li><strong class="highlight">TAFAZZIN</strong> reacylates MLCL with linoleic acid from PC/PE donors to form mature tetralinoleoyl-CL.</li>
+                        <li>Mature CL stabilizes respiratory chain supercomplexes (I, III, IV) and ATP synthase.</li>
+                        <li>CL maintains cristae structure through interactions with OPA1.</li>
+                        <li>In BTHS: mutant tafazzin causes MLCL accumulation and CL deficiency.</li>
+                    </ul>
+                </div>
+                
+                <div class="image-content">
+                    <figure class="large-figure hotspot-container">
+                        <img src="images/image2.png" alt="Cardiolipin remodeling pathway">
+                        <div class="hotspot" style="top: 18%; left: 8%;" data-label="G-3-P">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Glycerol-3-Phosphate (G-3-P)</h5>
+                                <p>The starting molecule for cardiolipin synthesis. It's converted through multiple steps in the de novo synthesis pathway.</p>
+                            </div>
+                        </div>
+                        <div class="hotspot" style="top: 18%; left: 35%;" data-label="PA">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Phosphatidic Acid (PA)</h5>
+                                <p>Formed by GPAT and AGPAT enzymes adding acyl-CoA groups. PA is a key intermediate in phospholipid biosynthesis.</p>
+                            </div>
+                        </div>
+                        <div class="hotspot" style="top: 25%; left: 70%;" data-label="Nascent CL">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Nascent Cardiolipin</h5>
+                                <p>Newly synthesized cardiolipin with random acyl chains. CLS1 (cardiolipin synthase) catalyzes its formation from PG and CDP-DAG.</p>
+                            </div>
+                        </div>
+                        <div class="hotspot" style="top: 55%; left: 25%;" data-label="MLCL">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Monolysocardiolipin (MLCL)</h5>
+                                <p>Intermediate formed when PLA2 removes one acyl chain from nascent CL. In BTHS, MLCL accumulates because TAZ cannot reacylate it.</p>
+                            </div>
+                        </div>
+                        <div class="hotspot" style="top: 50%; left: 55%;" data-label="TAZ Blocked">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip tooltip-warning">
+                                <h5>⚠️ TAFAZZIN Deficiency</h5>
+                                <p>The crossed-out TAZ shows this enzyme is non-functional in Barth syndrome. Without TAZ, MLCL cannot be converted to mature cardiolipin.</p>
+                            </div>
+                        </div>
+                        <div class="hotspot" style="top: 65%; left: 85%;" data-label="Mature CL">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Mature Tetralinoleoyl-CL</h5>
+                                <p>The final product with four linoleic acid chains (18:2). This symmetric structure is optimal for membrane curvature and respiratory complex function.</p>
+                            </div>
+                        </div>
+                        <figcaption>Cardiolipin de novo synthesis and remodeling pathways</figcaption>
+                    </figure>
+                    <figure class="large-figure hotspot-container">
+                        <img src="images/image11.png" alt="Molecular mechanism of BTHS cardiomyopathy">
+                        <div class="hotspot" style="top: 12%; left: 18%;" data-label="ROS">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Increased ROS Production</h5>
+                                <p>Dysfunctional respiratory chain leads to electron leakage and increased reactive oxygen species, causing oxidative damage.</p>
+                            </div>
+                        </div>
+                        <div class="hotspot" style="top: 15%; left: 45%;" data-label="RSC Assembly">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Abnormal Respiratory Supercomplex Assembly</h5>
+                                <p>Without mature cardiolipin, respiratory chain complexes I+III+IV cannot form stable supercomplexes, reducing efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="hotspot" style="top: 45%; left: 50%;" data-label="CL Pathway">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Cardiolipin Remodeling Defect</h5>
+                                <p>The central pathway shows: Nascent CL → MLCL accumulation due to TAZ deficiency → reduced mature CL levels.</p>
+                            </div>
+                        </div>
+                        <div class="hotspot" style="top: 75%; left: 25%;" data-label="Bioenergetics">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Impaired Bioenergetics</h5>
+                                <p>Defects in acetyl-CoA biosynthesis, TCA cycle function, and NADH/FADH₂ production all contribute to reduced ATP generation.</p>
+                            </div>
+                        </div>
+                        <div class="hotspot" style="top: 25%; left: 85%;" data-label="Ca2+ Handling">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Calcium Handling Defects</h5>
+                                <p>Abnormal Ca²⁺ transients and reduced amplitude affect cardiomyocyte contractility, contributing to heart failure.</p>
+                            </div>
+                        </div>
+                        <div class="hotspot" style="top: 80%; left: 75%;" data-label="Morphology">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-tooltip">
+                                <h5>Mitochondrial Morphology Changes</h5>
+                                <p>Mitochondria become smaller, with abnormal "donut" or "onion" shapes. Cristae are hyperbranched and disorganized.</p>
+                            </div>
+                        </div>
+                        <figcaption>Molecular mechanism of BTHS cardiomyopathy</figcaption>
+                    </figure>
+                </div>
+            </div>
+            
+            <div class="sources">
+                <h4>Sources:</h4>
+                <div class="source-cards">
+                    <div class="source-card">
+                        <img src="images/image13.png" alt="Pang et al. 2022">
+                        <p>Pang et al. Genes (Basel). 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Cure -->
+    <section id="cure" class="section">
+        <div class="container">
+            <h2>Barth Syndrome Cure</h2>
+            
+            <div class="content-grid">
+                <div class="text-content">
+                    <div class="subsection">
+                        <h3>A. What molecular tools would be used to correct the gene (from slide 3)?</h3>
+                        <ul>
+                            <li><strong>AAV9 vector</strong> carrying functional human TAFAZZIN gene (gene replacement therapy)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="subsection">
+                        <h3>B. What would you do to the gene/DNA (what specific modifications would be made)?</h3>
+                        <ul>
+                            <li>Deliver a new functional copy of TAFAZZIN with <strong>desmin promoter</strong> for cardiac/skeletal muscle expression</li>
+                            <li>Gene remains as episome in nucleus (does not integrate into host genome)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="subsection">
+                        <h3>C. How would this therapy be delivered to the cells and how would it target the specific cells (from slide 2)?</h3>
+                        <ul>
+                            <li><strong>Intravenous (IV) injection</strong> of AAV9-hTAZ vector</li>
+                            <li>AAV9 has natural tropism for cardiac and skeletal muscle tissue</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="image-content">
+                    <div class="cure-images">
+                        <figure class="hotspot-container">
+                            <img src="images/image16.png" alt="AAV-hTAZ prevention study">
+                            <div class="hotspot" style="top: 8%; left: 8%;" data-label="Study Design">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Experimental Design</h5>
+                                    <p>TAZ-CKO mice received AAV-hTAZ or control virus at day 20, with echocardiography performed monthly to assess cardiac function.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 18%; left: 35%;" data-label="FS Recovery">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Fractional Shortening (FS%)</h5>
+                                    <p>Graph B shows cardiac contractility. High-dose AAV-hTAZ (green) maintains normal FS (~50%), while untreated mice (red) decline to ~25%.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 35%; left: 65%;" data-label="TAZ Expression">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>TAZ Protein Restoration</h5>
+                                    <p>Western blot (E) confirms human TAZ (hs) expression in treated hearts. The higher molecular weight distinguishes it from mouse TAZ (mm).</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 35%; left: 88%;" data-label="MLCL/CL Ratio">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Cardiolipin Normalization</h5>
+                                    <p>Graph F shows the MLCL/CL ratio. High-dose treatment (green) normalizes this ratio to wild-type levels, confirming restored cardiolipin remodeling.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 70%; left: 25%;" data-label="Gene Expression">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Mitochondrial Gene Rescue</h5>
+                                    <p>Graphs G-H show restoration of genes critical for mitochondrial function (Co-1, Atp6, Opa1, Mfn2) and normalization of heart failure markers.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 70%; left: 65%;" data-label="Fibrosis Reduction">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Reduced Cardiac Fibrosis</h5>
+                                    <p>Histology images (I) show Sirius red staining. AAV-hTAZ treatment dramatically reduces fibrotic tissue (red areas) compared to controls.</p>
+                                </div>
+                            </div>
+                            <figcaption>Figure 5: AAV-hTAZ prevented development of cardiac dysfunction</figcaption>
+                        </figure>
+                        <figure class="hotspot-container">
+                            <img src="images/image17.png" alt="AAV-hTAZ reversal study">
+                            <div class="hotspot" style="top: 8%; left: 15%;" data-label="Reversal Design">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Reversal Study Design</h5>
+                                    <p>Mice with ESTABLISHED cardiac dysfunction (FS < 40%) received AAV-hTAZ to test if gene therapy can reverse existing disease.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 20%; left: 45%;" data-label="Function Restored">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Cardiac Function Restoration</h5>
+                                    <p>Remarkably, high-dose AAV-hTAZ (green) restored cardiac function from ~35% to ~50% FS, demonstrating reversal of established cardiomyopathy.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 55%; left: 75%;" data-label="Dose Response">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Dose-Dependent Response</h5>
+                                    <p>Medium dose (blue) provides partial improvement, while high dose (green) achieves near-complete normalization. ~70% cardiomyocyte transduction is required for full efficacy.</p>
+                                </div>
+                            </div>
+                            <figcaption>Figure 6: AAV-hTAZ reversal of established cardiac dysfunction</figcaption>
+                        </figure>
+                        <figure class="hotspot-container">
+                            <img src="images/image18.png" alt="AAV-TAZ improves cardiac function">
+                            <div class="hotspot" style="top: 15%; left: 30%;" data-label="Germline KO">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Germline TAZ-KO Model</h5>
+                                    <p>This experiment used complete TAZ knockout mice (TAZ-KO), providing the most severe disease model to test therapeutic efficacy.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 15%; left: 70%;" data-label="Long-term Effect">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Sustained Improvement</h5>
+                                    <p>Graphs show cardiac function improvement is maintained over 3 months, demonstrating durability of AAV-mediated gene therapy.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 60%; left: 25%;" data-label="Lipid Profile">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Cardiolipin Profile Improvement</h5>
+                                    <p>Mass spectrometry confirms improved MLCL/CL ratio (I), though not fully normalized, consistent with transduction of most but not all cardiac cells.</p>
+                                </div>
+                            </div>
+                            <div class="hotspot" style="top: 75%; left: 60%;" data-label="EM Improvement">
+                                <span class="hotspot-dot"></span>
+                                <div class="hotspot-tooltip">
+                                    <h5>Mitochondrial Structure Restored</h5>
+                                    <p>Electron microscopy (K) shows AAV-hTAZ treatment restores normal mitochondrial size and cristae density compared to untreated TAZ-KO.</p>
+                                </div>
+                            </div>
+                            <figcaption>Figure 7: AAV-TAZ improves cardiac function in TAZ-KO</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sources">
+                <h4>Sources:</h4>
+                <div class="source-cards">
+                    <div class="source-card">
+                        <img src="images/image15.png" alt="Wang et al. 2020">
+                        <p>Wang et al. Circ Res. 2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Barth Syndrome Presentation by Robert Nguyen</p>
+            <p class="footer-sources">
+                Primary Sources: Clarke et al. Orphanet J Rare Dis. 2013 | Saric et al. Front Genet. 2016 | Wang et al. Circ Res. 2020 | Pang et al. Genes (Basel). 2022
+            </p>
+        </div>
+    </footer>
+
+    </div>
+    <!-- End Page Content -->
+
+    <script src="script.js"></script>
+</body>
+</html>
