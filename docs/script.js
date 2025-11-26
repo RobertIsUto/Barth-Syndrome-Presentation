@@ -1,7 +1,4 @@
-// =========================================
-// BARTH SYNDROME - ACADEMIC PRESENTATION
-// Simplified Professional JavaScript
-// =========================================
+
 
 // Loading Screen Animation
 window.addEventListener('load', () => {
