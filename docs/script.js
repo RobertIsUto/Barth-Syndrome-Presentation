@@ -1,7 +1,3 @@
-// =========================================
-// BARTH SYNDROME - PROFESSIONAL B&W DESIGN
-// Enhanced JavaScript
-// =========================================
 
 // Loading Screen Animation
 window.addEventListener('load', () => {
