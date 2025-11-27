@@ -16,9 +16,7 @@ window.addEventListener('load', () => {
     }, 1800);
 });
 
-// =========================================
-// SCROLL PROGRESS BAR
-// =========================================
+
 
 function initScrollProgress() {
     const progressBar = document.createElement('div');
@@ -35,9 +33,7 @@ function initScrollProgress() {
 
 initScrollProgress();
 
-// =========================================
-// SCROLL REVEAL ANIMATIONS
-// =========================================
+
 
 function initScrollReveal() {
     // Add reveal classes to elements
@@ -96,9 +92,7 @@ function initScrollReveal() {
     });
 }
 
-// =========================================
-// IMAGE LOADING STATES
-// =========================================
+
 
 function initImageLoading() {
     document.querySelectorAll('figure img').forEach(img => {
@@ -122,9 +116,7 @@ function initImageLoading() {
 
 initImageLoading();
 
-// =========================================
-// MOBILE NAVIGATION
-// =========================================
+
 
 function initMobileNav() {
     // Create toggle button
@@ -208,9 +200,7 @@ function initMobileNav() {
 
 initMobileNav();
 
-// =========================================
-// BACK TO TOP BUTTON
-// =========================================
+
 
 function initBackToTop() {
     const button = document.createElement('button');
@@ -264,9 +254,7 @@ function initBackToTop() {
 
 initBackToTop();
 
-// =========================================
-// SMOOTH SCROLLING FOR NAV LINKS
-// =========================================
+
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -283,9 +271,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// =========================================
-// NAVBAR SCROLL EFFECT
-// =========================================
+
 
 const navbar = document.querySelector('.navbar');
 
@@ -297,9 +283,7 @@ window.addEventListener('scroll', () => {
     }
 }, { passive: true });
 
-// =========================================
-// ACTIVE NAV LINK HIGHLIGHTING
-// =========================================
+
 
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav-menu a');
@@ -325,9 +309,7 @@ window.addEventListener('scroll', () => {
     });
 }, { passive: true });
 
-// =========================================
-// HOTSPOT FUNCTIONALITY
-// =========================================
+
 
 document.querySelectorAll('.hotspot').forEach(hotspot => {
     hotspot.addEventListener('click', function(e) {
@@ -361,9 +343,7 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-// =========================================
-// IMAGE MODAL
-// =========================================
+
 
 document.querySelectorAll('.hotspot-container img').forEach(img => {
     img.addEventListener('click', function(e) {
@@ -454,8 +434,6 @@ document.querySelectorAll('.hotspot-container img').forEach(img => {
     });
 });
 
-// =========================================
-// CONSOLE LOG
-// =========================================
+
 
 console.log('Barth Syndrome Presentation - Enhanced Version Loaded');
