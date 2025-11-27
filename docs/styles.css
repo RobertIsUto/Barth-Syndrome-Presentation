@@ -59,9 +59,7 @@ body {
     color: var(--pure-white);
 }
 
-/* =========================================
-   LOADING SCREEN - Refined
-   ========================================= */
+
 
 .loader-wrapper {
     position: fixed;
@@ -215,9 +213,7 @@ body {
     opacity: 1;
 }
 
-/* =========================================
-   TYPOGRAPHY - Refined
-   ========================================= */
+
 
 h1, h2 {
     font-family: var(--font-display);
@@ -260,9 +256,7 @@ strong {
     color: var(--charcoal);
 }
 
-/* =========================================
-   NAVIGATION - Refined
-   ========================================= */
+
 
 .navbar {
     position: fixed;
@@ -344,9 +338,7 @@ strong {
     width: 100%;
 }
 
-/* =========================================
-   HERO SECTION - Refined
-   ========================================= */
+
 
 .hero {
     background: var(--near-black);
@@ -394,9 +386,7 @@ strong {
     text-transform: uppercase;
 }
 
-/* =========================================
-   CONTAINER & SECTIONS - Refined
-   ========================================= */
+
 
 .container {
     max-width: var(--container-max);
@@ -449,9 +439,7 @@ strong {
     text-transform: uppercase;
 }
 
-/* =========================================
-   CONTENT GRID - Refined
-   ========================================= */
+
 
 .content-grid {
     display: grid;
@@ -471,9 +459,7 @@ strong {
     direction: ltr;
 }
 
-/* =========================================
-   TEXT CONTENT - Refined
-   ========================================= */
+
 
 .text-content {
     padding: 1rem 0;
@@ -556,9 +542,7 @@ strong {
     color: var(--pure-white);
 }
 
-/* =========================================
-   PATHWAY LIST - Refined
-   ========================================= */
+
 
 .pathway-list {
     list-style: none;
@@ -605,9 +589,6 @@ strong {
     color: var(--pure-white);
 }
 
-/* =========================================
-   IMAGE CONTENT - Full Color Preserved
-   ========================================= */
 
 .image-content {
     display: flex;
@@ -705,9 +686,7 @@ figcaption {
     background: var(--pure-white);
 }
 
-/* =========================================
-   SOURCES - Refined
-   ========================================= */
+
 
 .sources {
     margin-top: 4rem;
@@ -769,9 +748,7 @@ figcaption {
     border-top: 1px solid var(--silver);
 }
 
-/* =========================================
-   HOTSPOT STYLES - Refined
-   ========================================= */
+
 
 .hotspot-container {
     position: relative;
@@ -996,9 +973,7 @@ figcaption {
     color: var(--silver);
 }
 
-/* =========================================
-   FOOTER - Refined
-   ========================================= */
+
 
 .footer {
     background: var(--black);
@@ -1022,9 +997,7 @@ figcaption {
     letter-spacing: 0.02em;
 }
 
-/* =========================================
-   SCROLL REVEAL ANIMATIONS
-   ========================================= */
+
 
 @keyframes fadeInUpSection {
     from {
@@ -1041,9 +1014,7 @@ figcaption {
     animation: fadeInUpSection 0.8s ease-out;
 }
 
-/* =========================================
-   RESPONSIVE DESIGN
-   ========================================= */
+
 
 @media (max-width: 1100px) {
     .container {
@@ -1174,9 +1145,7 @@ figcaption {
     }
 }
 
-/* =========================================
-   CUSTOM SCROLLBAR
-   ========================================= */
+
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -1196,9 +1165,7 @@ figcaption {
     background: var(--gray);
 }
 
-/* =========================================
-   SCROLL PROGRESS BAR
-   ========================================= */
+
 
 .scroll-progress {
     position: fixed;
@@ -1211,9 +1178,7 @@ figcaption {
     transition: width 0.1s linear;
 }
 
-/* =========================================
-   SCROLL REVEAL ANIMATIONS
-   ========================================= */
+
 
 .reveal {
     opacity: 0;
@@ -1265,9 +1230,7 @@ figcaption {
     transform: translateY(0) scale(1);
 }
 
-/* =========================================
-   IMAGE LOADING STATES
-   ========================================= */
+
 
 figure {
     background: var(--pure-white);
@@ -1332,9 +1295,7 @@ figure.loaded::before {
     background-size: 200% 100%;
 }
 
-/* =========================================
-   SECTION DIVIDERS
-   ========================================= */
+
 
 .section-divider {
     position: absolute;
@@ -1366,9 +1327,7 @@ figure.loaded::before {
     transform: rotate(180deg);
 }
 
-/* =========================================
-   MOBILE NAVIGATION
-   ========================================= */
+
 
 .nav-toggle {
     display: none;
@@ -1472,9 +1431,7 @@ figure.loaded::before {
     padding-left: 0.5rem;
 }
 
-/* =========================================
-   BACK TO TOP BUTTON
-   ========================================= */
+
 
 .back-to-top {
     position: fixed;
@@ -1530,9 +1487,7 @@ figure.loaded::before {
     background: var(--off-white);
 }
 
-/* =========================================
-   FIGURE ZOOM ON HOVER
-   ========================================= */
+
 
 figure img {
     transition: opacity 0.5s ease, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1552,9 +1507,7 @@ figure.loaded .hotspot {
     opacity: 1;
 }
 
-/* =========================================
-   PRINT STYLES
-   ========================================= */
+
 
 @media print {
     .navbar,
